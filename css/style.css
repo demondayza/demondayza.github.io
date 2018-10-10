@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: 'Signika', sans-serif !important;
+}
+
+
+
+#particles-js canvas {
+    display: block;
+    vertical-align: bottom;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0
+}
+
+/* #particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #FFF;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+} */
+
+
+nav {
+	color: #fff;
+	background-color: #33b3d3 !important;
+	width: 100%;
+	height: 56px;
+	line-height: 56px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Signika:100);
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#rc_particles {
+  z-index: 4;
+  height: 100%;
+  height: 100vh;
+  background: #674172;
+}
+
+.rc_sec {
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  right: 0;
+  left: 0;
+  margin: 0  auto;
+}
+
+.rc_txt {
+  font: 100 10vh/1 Signika;
+  text-align: center;
+  color: #33b3d3;
+}
+
+.rc_inner {
+  padding: 0 2rem;
+  text-transform: uppercase;
+  background: #ffffff;
+}
+
+.rc_of {
+  padding: 1rem;
+  color: #ffffff;
+  background: #33b3d3;
+}
+
+.rc_ahmadawais {
+  display: table;
+  width: 100%;
+  vertical-align: bottom;
+  margin: 5rem 0 5rem;
+  text-align: center;
+  background: #674172;
+  color: #ffffff;
+  font: 100 2vh/2 Roboto;
+}
+.rc_ahmadawais a {
+  color: #cccccc;
+  text-decoration: none;
+  border-bottom: 1px solid #cccccc;
+}
